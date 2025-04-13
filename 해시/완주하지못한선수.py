@@ -1,3 +1,4 @@
+# Counter로 배열의 갯수를 세서 dictionary를 만들고 숫자를 비교한다. set으로 key의 순서를 무시하는게 point.
 from collections import Counter
 
 def solution(participant, completion):
