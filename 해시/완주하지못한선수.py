@@ -16,3 +16,11 @@ def solution(participant, completion):
         for a in p_map:
             if p_map[a] != c_map[a]:
                 return a
+            
+# answer(best code)
+
+# from collections import Counter
+
+# def solution(participant, completion):
+#     answer = Counter(participant) - Counter(completion)
+#     return list(answer.keys())[0]
